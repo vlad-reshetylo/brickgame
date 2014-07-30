@@ -1,0 +1,58 @@
+.about {
+	display: none;
+	font-size: 80%;
+	font-weight: normal; }
+ 
+	.about span {
+		color: blue;
+		font-weight: bold; }
+ 
+		.about span:hover { cursor: pointer; }
+ 
+ 
+#about span:hover {
+	cursor: pointer;
+	font-size: 110%; }
+ 
+ 
+.game-container {
+	height: 402px;
+	position: absolute;
+	width: 303px; }
+ 
+ 
+.instruction {
+	margin-right: 10px;
+	position: fixed; /*font-weight: normal;*/
+	top:340px;
+	width: 100px; }
+ 
+ 
+.pix {
+	height: 20px;
+	position: absolute;
+	width: 20px; }
+ 
+ 
+.score-place {
+	border-left: none;
+	border: 1px #1C1C1C solid;
+	font-weight: bold;
+	height: 400px;
+	margin-left: 202px;
+	position: absolute;
+	text-align: center;
+	width: 100px; }
+ 
+	.score-place a {
+		color: black;
+		text-decoration: none; }
+ 
+		.score-place a:hover { font-size: 110%; }
+ 
+ 
+.screen-container {
+	border: 1px #1C1C1C solid;
+	height: 400px;
+	position: absolute;
+	width: 200px; }
