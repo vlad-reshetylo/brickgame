@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Brick game: snake",
+  "version": "1.5.9",
+  "description": "Retro-version of game 'snake' now in you browser!",
+  "icons": {
+    "32": "32x32.png",
+    "64": "64x64.png"
+  },
+
+      "browser_action": {
+        "default_title": "Brick game: snake",
+        "default_icon": "48x48.png",
+        "default_popup": "popup.html"
+    },
+
+  "options_page": "options.html"
+    
+}
